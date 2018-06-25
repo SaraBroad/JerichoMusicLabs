@@ -3,8 +3,12 @@
     width: 300px;
 } */
 
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 100%;
+}
 #logo-container {
-    height: 300px;
+    height: 200px;
     width: 300px;
     margin-left: 40px;
     margin-top: 30px;
@@ -15,9 +19,30 @@
 }
 
 #nav-bar {
-    margin-left: 40px;
+    border-bottom: 1px solid 	#00008B;
+    margin-top: 40px;
 }
 
 a {
-    padding: 20px;
+    margin-left: 50px;
+    font-size: 20px;
 }
+
+footer {
+    height: 90px;
+    background:#191970;
+    color: white;
+}
+
+#main-container {
+    height: 500px;
+}
+
+p {
+    padding-top: 35px;
+    text-align: center;
+}
+
+
+
+
