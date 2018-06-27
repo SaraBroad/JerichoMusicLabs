@@ -32,10 +32,11 @@ footer {
     height: 90px;
     background:#191970;
     color: white;
+    width: 100%;
 }
 
 #main-container {
-    height: 500px;
+    height: 100%;
 }
 
 p {
@@ -43,6 +44,18 @@ p {
     text-align: center;
 }
 
+#place-image {
+    width: 900px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
 
+#mission {
+    width: 900px;
+    margin-left: 200px;
+    height: 300px;
+   
+}
 
 
