@@ -77,6 +77,10 @@ p {
    height: 300px;;
 }
 
+.contact-container {
+    padding: 50px;
+}
+
 /* #place-image {
     width: 900px;
     height: 400px;
