@@ -52,6 +52,7 @@ footer {
 p {
     padding-top: 35px;
     text-align: center;
+    font-size: 16px;
 }
 
 #place-image {
@@ -65,8 +66,15 @@ p {
     margin-left: 125px;
     height: 100%;
     font-size: 20px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     padding-top: 30px;  
+}
+
+#start-info {
+    width: 900px;
+    margin-left: 125px;
+    height: 100%;
+    font-size: 20px; 
 }
 
 #team-image {
@@ -85,6 +93,12 @@ p {
 
 nav a {
     text-decoration: none;
+}
+
+.startup-images {
+    margin-left: 260px;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 /* #place-image {
