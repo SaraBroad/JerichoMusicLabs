@@ -6,6 +6,7 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     height: 100%;
+    width: 100%;
 }
 #logo-container {
     height: 200px;
@@ -21,6 +22,7 @@ body {
 #nav-bar {
     border-bottom: 1px solid 	#00008B;
     margin-top: 40px;
+    text-decoration: none;
 }
 
 a {
@@ -35,17 +37,17 @@ footer {
     width: 100%;
 }
 
-/* .container {
-    height: 100%;
-    width: 900px;
-    width: 100%;   
-} */
-
-#main-container {
+.container {
     height: 100%;
     width: 900px;
     width: 100%;   
 }
+/* 
+#main-container {
+    height: 100%;
+    width: 900px;
+    width: 100%;   
+} */
 
 p {
     padding-top: 35px;
@@ -81,6 +83,10 @@ p {
     padding: 50px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 /* #place-image {
     width: 900px;
     height: 400px;
@@ -90,4 +96,20 @@ p {
 
 
 
+/* @media (min-width: 320px) and (max-width: 480px) {
+  
+    
+    
+ 
+    /* For mobile phones: */
+    /* #mission {
+        width: 100%;
+    }
 
+    #cover-image {
+        width: 600px;
+    } */
+    /* .container {
+        width: 100%;
+    }
+} */ 
